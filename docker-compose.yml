@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  8k-analyzer:
+    build: .
+    container_name: 8k-analyzer
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+    restart: unless-stopped 

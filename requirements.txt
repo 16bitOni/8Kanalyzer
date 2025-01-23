@@ -1,0 +1,15 @@
+streamlit
+pandas
+python-dateutil
+python-dotenv
+google-generativeai
+sec-edgar-downloader
+requests 
+pydantic
+pydantic-ai
+edgartools
+python-dotenv
+streamlit
+pandas
+python-dateutil
+python-dotenv
